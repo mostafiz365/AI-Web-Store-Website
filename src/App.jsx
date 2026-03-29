@@ -52,9 +52,7 @@ function App() {
       {
         activeTab === 'cart' && <SelectedCarts subscribeCart={subscribeCart} setSubscribeCart={setSubscribeCart}></SelectedCarts>
       }
-
       
-
       <Footer></Footer>
     </>
   );
